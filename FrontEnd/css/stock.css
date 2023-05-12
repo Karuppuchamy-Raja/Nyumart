@@ -1,0 +1,28 @@
+.product-stock {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .stock-label {
+    margin-right: 10px;
+  }
+  
+  .stock-quantity {
+    font-weight: bold;
+  }
+
+  .out-of-stock {
+    opacity: 0.5;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .out-of-stock-message {
+    color: red;
+  }
+  
+  .in-stock-message {
+    color: green;
+  }
+  
